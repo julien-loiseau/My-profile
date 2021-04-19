@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+  background-color: #F7F9FC;
+  font-family: 'Roboto', sans-serif;
+  color: #2B303A;
+}
+
+
+.container {
+  width: 1300px;
+  margin: 20px auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card-white {
+  background: white;
+  padding: 10px 10px 30px 10px;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  width: 40%;
+  margin: 10px auto;
+}
+
+img {
+  width: 30%;
+}
+
+.img-circle {
+  border-radius: 150px;
+}
+
+#btn-red {
+  color: white;
+  background-color: #D64933;
+  border-radius: 4px;
+  font-size : 16px;
+  font-weight: 400;
+  text-decoration: none;
+  margin-top: 10px;
+  padding: 5px 10px;
+}
+
+#btn-red:hover {
+  color: #2B303A;
+  font-weight: 700;
+}
+
+h1 {
+  font-size : 40px;
+}
+
+h2 {
+  font-size : 32px;
+  font-weight: 300;
+  margin-top: -20px;
+}
+
+p {
+  font-size : 16px;
+  line-height: 1.8;
+  margin : 20px auto;
+  width: 65%;
+}
+
+.fa-laptop-code, .fa-rocket {
+  color: #D64933;
+}
+
+ul {
+  list-style: none;
+  align-content: center;
+  width : 20%;
+  margin: 10px auto;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-bottom {
+  background: white;
+  padding: 10px;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  width: 40%;
+  margin: 10px auto;
+}
+
+.card-bottom i {
+  font-size: 30px;
+  color: #BAC1B8;
+}
+
+.card-bottom i:hover {
+  color: #D64933;
+}
+
+@media (max-width: 1000px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 900px;
+  }
+}
+
